@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth scroll-pt-20">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catatan Haekal - Blog Pribadi</title>
+  <link rel="stylesheet" href="output.css">
+</head>
+<body>
+
+  <header class="sticky top-0 z-10 flex items-center justify-between bg-white px-10 py-3.5 shadow-md max-[760px]:flex-col max-[760px]:gap-3.5">
+    <div class="flex items-center gap-2.5">
+      <span class="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-indigo-600 text-xl font-bold text-white">HS</span>
+      <span class="text-[19px] font-bold text-indigo-950">Catatan Haekal</span>
+    </div>
+
+    <nav>
+      <ul class="flex items-center gap-1.5 max-[760px]:flex-wrap max-[760px]:justify-center">
+        <li><a class="flex items-center gap-2 rounded-full px-4 py-2 font-semibold text-gray-800 transition-colors hover:bg-indigo-100 hover:text-indigo-600" href="#beranda">Beranda</a></li>
+        <li><a class="flex items-center gap-2 rounded-full px-4 py-2 font-semibold text-gray-800 transition-colors hover:bg-indigo-100 hover:text-indigo-600" href="#proyek">Proyek</a></li>
+        <li><a class="flex items-center gap-2 rounded-full px-4 py-2 font-semibold text-gray-800 transition-colors hover:bg-indigo-100 hover:text-indigo-600" href="#kontak">Kontak</a></li>
+        <li>
+          <a href="https://github.com/Daxxiee0x1" target="_blank" rel="noopener" class="flex items-center gap-2 rounded-full bg-indigo-950 px-4 py-2 font-semibold text-white transition-colors hover:bg-indigo-600">
+            <img src="img/github.png" alt="Ikon GitHub" class="h-5 w-5 shrink-0 object-contain [filter:brightness(0)_invert(1)]">
+            GitHub
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="beranda" class="bg-gradient-to-br from-indigo-600 to-indigo-950 px-5 py-[90px] text-center text-white">
+      <p class="mb-2 text-sm uppercase tracking-[2px] text-indigo-200">Selamat datang di blog saya</p>
+      <h1 class="mb-3.5 text-[42px] font-bold leading-tight max-[760px]:text-[32px]">Halo, saya Haekal</h1>
+      <p class="mx-auto mb-7 max-w-[540px] text-indigo-100">
+        Mahasiswa ilmu komputer di Universitas Cakrawala yang fokus belajar back-end developement dan Cyber Red Team dan Pentest.
+      </p>
+      <a href="https://github.com/Daxxiee0x1?tab=repositories" target="_blank" rel="noopener" class="inline-flex items-center gap-2.5 rounded-full bg-white px-[26px] py-3 font-bold text-indigo-950 transition hover:-translate-y-0.5 hover:bg-indigo-100">
+        <img src="img/github.png" alt="Ikon GitHub" class="h-5 w-5 shrink-0 object-contain">
+        Lihat Repository Saya
+      </a>
+    </section>
+
+    <div class="mx-auto my-10 grid max-w-[1100px] grid-cols-[1fr_300px] gap-[30px] px-5 max-[900px]:grid-cols-1">
+
+      <div class="flex flex-col gap-6">
+
+        <section id="proyek" class="rounded-2xl bg-white p-[30px] shadow-[0_4px_16px_rgba(30,27,75,0.08)]">
+          <h2 class="mb-[18px] text-2xl font-bold leading-tight text-indigo-950">Proyek</h2>
+          <p class="mb-3.5 text-gray-500">
+            Kode dan proyek yang saya kerjakan disimpan di GitHub.
+            Berikut beberapa di antaranya.
+          </p>
+
+          <div class="mb-[18px] grid grid-cols-2 gap-4 max-[760px]:grid-cols-1">
+            <article class="flex flex-col gap-2 rounded-[14px] border border-gray-200 p-5 transition hover:-translate-y-1 hover:shadow-[0_4px_16px_rgba(30,27,75,0.08)]">
+              <div class="mb-1.5 flex items-center gap-2.5 text-[13px] text-gray-500">
+                <span class="rounded-full bg-indigo-100 px-2.5 py-0.5 font-semibold text-indigo-600">Repository</span>
+              </div>
+              <h3 class="text-lg font-bold leading-tight text-indigo-950">grokforge</h3>
+              <p class="flex-1 text-sm text-gray-500">GrokForge adalah source code untuk membuat akun grok secara massal dan otomatis mengabil otp dari website tempmail dan juga memakai camoufox untuk automationnya dan auto link ke 9router untuk memakai AI dari grok.</p>
+              <a href="https://github.com/Daxxiee0x1/grokforge" target="_blank" rel="noopener" class="font-semibold text-indigo-600 hover:underline">Lihat repository &rarr;</a>
+            </article>
+
+            <article class="flex flex-col gap-2 rounded-[14px] border border-gray-200 p-5 transition hover:-translate-y-1 hover:shadow-[0_4px_16px_rgba(30,27,75,0.08)]">
+              <div class="mb-1.5 flex items-center gap-2.5 text-[13px] text-gray-500">
+                <span class="rounded-full bg-indigo-100 px-2.5 py-0.5 font-semibold text-indigo-600">Repository</span>
+              </div>
+              <h3 class="text-lg font-bold leading-tight text-indigo-950">KosSplit</h3>
+              <p class="flex-1 text-sm text-gray-500">KosSplit adalah aplikasi android yang saya buat dengan full bahasa python dengan framework Kivy agar bisa membuat UI/UX dengan bahasa python, 
+                KosSplit adalah aplikasi Android lokal untuk membagi tagihan, mencatat pengeluaran, memantau arus kas, dan menyederhanakan utang penghuni kos</p>
+              <a href="https://github.com/Daxxiee0x1/KosSplit" target="_blank" rel="noopener" class="font-semibold text-indigo-600 hover:underline">Lihat repository &rarr;</a>
+            </article>
+
+            <article class="flex flex-col gap-2 rounded-[14px] border border-gray-200 p-5 transition hover:-translate-y-1 hover:shadow-[0_4px_16px_rgba(30,27,75,0.08)]">
+              <div class="mb-1.5 flex items-center gap-2.5 text-[13px] text-gray-500">
+                <span class="rounded-full bg-indigo-100 px-2.5 py-0.5 font-semibold text-indigo-600">Repository</span>
+              </div>
+              <h3 class="text-lg font-bold leading-tight text-indigo-950">ParkirPintar</h3>
+              <p class="flex-1 text-sm text-gray-500">ParkirPintar adalah projek kuliah di mata kuliah SDF atau Software Development Fundamental untuk mempelajari modularity dan collaboration di github.</p>
+              <a href="https://github.com/Daxxiee0x1/ParkirPintar" target="_blank" rel="noopener" class="font-semibold text-indigo-600 hover:underline">Lihat repository &rarr;</a>
+            </article>
+
+            <article class="flex flex-col gap-2 rounded-[14px] border border-gray-200 p-5 transition hover:-translate-y-1 hover:shadow-[0_4px_16px_rgba(30,27,75,0.08)]">
+              <div class="mb-1.5 flex items-center gap-2.5 text-[13px] text-gray-500">
+                <span class="rounded-full bg-indigo-100 px-2.5 py-0.5 font-semibold text-indigo-600">Repository</span>
+              </div>
+              <h3 class="text-lg font-bold leading-tight text-indigo-950">SIGAP</h3>
+              <p class="flex-1 text-sm text-gray-500">SIGAP adalah projek IoMT atau Internet of Military Things yang saya kembangkan untuk menghindari perubahan bundle di pos terdepan militer. 
+                SIGAP adalah projek untuk Kartika CyberHackathon TNI AD</p>
+              <a href="https://github.com/Daxxiee0x1/SIGAP" target="_blank" rel="noopener" class="font-semibold text-indigo-600 hover:underline">Lihat repository &rarr;</a>
+            </article>
+          </div>
+
+          <a href="https://github.com/Daxxiee0x1?tab=repositories" target="_blank" rel="noopener" class="mt-1.5 inline-flex items-center gap-2.5 rounded-full bg-indigo-950 px-[26px] py-3 font-bold text-white transition hover:-translate-y-0.5 hover:bg-indigo-600">
+            <img src="img/github.png" alt="Ikon GitHub" class="h-5 w-5 shrink-0 object-contain [filter:brightness(0)_invert(1)]">
+            github.com/Daxxiee0x1
+          </a>
+        </section>
+
+      </div>
+
+      <aside class="sticky top-[90px] flex flex-col gap-5 self-start max-[900px]:static">
+
+        <div class="rounded-2xl bg-white p-[22px] text-center shadow-[0_4px_16px_rgba(30,27,75,0.08)]">
+          <div class="mx-auto mb-3 flex h-20 w-20 items-center justify-center rounded-full bg-gradient-to-br from-indigo-600 to-indigo-950 text-[34px] font-bold text-white">HS</div>
+          <h3 class="mb-3 text-[17px] font-bold leading-tight text-indigo-950">Haekal</h3>
+          <p class="text-sm text-gray-500">Mahasiswa yang sedang belajar Back-End development. Suka mencatat apa yang dipelajari.</p>
+        </div>
+
+        <div class="rounded-2xl bg-white p-[22px] shadow-[0_4px_16px_rgba(30,27,75,0.08)]" id="kontak">
+          <h3 class="mb-3 text-[17px] font-bold leading-tight text-indigo-950">Kontak</h3>
+          <ul>
+            <li class="py-1.5 text-sm">
+              <a class="flex items-center gap-2.5 break-all text-gray-800 hover:text-indigo-600" href="https://github.com/Daxxiee0x1" target="_blank" rel="noopener">
+                <img src="img/github.png" alt="Ikon GitHub" class="h-5 w-5 shrink-0 object-contain">
+                Daxxiee0x1
+              </a>
+            </li>
+            <li class="py-1.5 text-sm">
+              <a class="flex items-center gap-2.5 break-all text-gray-800 hover:text-indigo-600" href="mailto:haekals078@gmail.com">
+                <img src="img/email.png" alt="Ikon email" class="h-5 w-5 shrink-0 object-contain">
+                haekals078@gmail.com
+              </a>
+            </li>
+            <li class="py-1.5 text-sm">
+              <a class="flex items-center gap-2.5 break-all text-gray-800 hover:text-indigo-600" href="tel:+62895618107561">
+                <img src="img/telepon.png" alt="Ikon telepon" class="h-5 w-5 shrink-0 object-contain">
+                +62 895-6181-07561
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </aside>
+    </div>
+  </main>
+
+  <footer class="flex items-center justify-between gap-6 bg-indigo-950 px-10 py-9 text-indigo-200 max-[760px]:flex-col max-[760px]:gap-3.5 max-[760px]:text-center">
+    <div class="flex flex-1 items-center gap-2.5">
+      <span class="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-indigo-600 text-xl font-bold text-white">HS</span>
+      <span class="text-[19px] font-bold text-white">Catatan Haekal</span>
+    </div>
+
+    <p class="flex-1 text-center text-sm">
+      Blog Pribadi perkenalan diri dan pemaparan projek yang telah saya buat.
+    </p>
+
+    <ul class="flex flex-1 flex-col items-end gap-1.5 text-sm max-[760px]:items-center">
+      <li>
+        <a class="flex items-center gap-2 text-indigo-200 hover:text-white" href="https://github.com/Daxxiee0x1" target="_blank" rel="noopener">
+          <img src="img/github.png" alt="Ikon GitHub" class="h-5 w-5 shrink-0 object-contain [filter:brightness(0)_invert(1)]">
+          github.com/Daxxiee0x1
+        </a>
+      </li>
+      <li>
+        <a class="flex items-center gap-2 text-indigo-200 hover:text-white" href="mailto:haekals078@gmail.com">
+          <img src="img/email.png" alt="Ikon email" class="h-5 w-5 shrink-0 object-contain [filter:brightness(0)_invert(1)]">
+          haekals078@gmail.com
+        </a>
+      </li>
+      <li>
+        <a class="flex items-center gap-2 text-indigo-200 hover:text-white" href="tel:+62895618107561">
+          <img src="img/telepon.png" alt="Ikon telepon" class="h-5 w-5 shrink-0 object-contain [filter:brightness(0)_invert(1)]">
+          +62 895-6181-07561
+        </a>
+      </li>
+    </ul>
+  </footer>
+
+</body>
+</html>
